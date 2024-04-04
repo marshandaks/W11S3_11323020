@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #8B4513;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    nav button {
+      background-color: #654321;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .home {
+      text-align: center;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .menu ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .menu li {
+      margin-bottom: 10px;
+      padding: 10px 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu li:hover {
+      background-color: #e0e0e0;
+    }
+
+    .order-details {
+      margin-top: 20px;
+    }
+
+    .selected-coffee {
+      background-color: #f0f0f0;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .order-success {
+      background-color: #dff0d8;
+      border: 1px solid #d0e9c6;
+      color: #3c763d;
+      border-radius: 5px;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .about {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #d2b48c;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Coffee Shop</h1>
+    <nav>
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='index.html'">Menu</button>
+      <button onclick="location.href='index.html'">About Cafe</button>
+    </nav>
+  </header>
+  <main>
+    <div class="home">
+      <h2>Welcome to Coffee Shop</h2>
+      <p>Enjoy our delicious coffee varieties!</p>
+    </div>
+    <div class="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li>
+          <span>Espresso</span>
+          <span>$3.5</span>
+        </li>
+        <li>
+          <span>Cappuccino</span>
+          <span>$4.0</span>
+        </li>
+        <li>
+          <span>Latte</span>
+          <span>$4.5</span>
+        </li>
+        <li>
+          <span>Mocha</span>
+          <span>$5.0</span>
+        </li>
+      </ul>
+    </div>
+    <div class="order-details">
+      <h2>Order Details</h2>
+      <div class="selected-coffee">
+        <h3>Espresso</h3>
+        <p>$3.5</p>
+      </div>
+      <button disabled>Place Order</button>
+      <div class="order-success">
+        <p>Your order of Espresso has been placed!</p>
+      </div>
+    </div>
+    <div class="about">
+      <h2>About Cafe</h2>
+      <p>Welcome to our cozy cafe! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </main>
+</body>
+</html>

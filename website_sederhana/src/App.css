@@ -1,0 +1,178 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #fff;
+  padding: 0px 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+nav button:hover {
+  background-color: #654321;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.menu,
+.order-details {
+  flex-basis: 45%;
+}
+
+.menu h2,
+.order-details h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+.order-success {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  color: #3c763d;
+  border-radius: 5px;
+}
+
+.about,
+.contact {
+  margin-top: 10px;
+  padding: 410px;
+  background-color: #d2b48c;
+  border-radius: 5px;
+}
+
+.home {
+  background-color: #D2B48C; /* Warna coklat muda */
+  padding: auto;
+  border-radius: 5px;
+}
+.home {
+  background-color: #D2B48C; /* Warna coklat muda */
+  padding: 410px;
+  border-radius: 5px;
+  text-align: center; /* Posisikan teks di tengah */
+}
+
+.home h2 {
+  font-size: 3rem; /* Ukuran font lebih besar */
+  font-family: cursive; /* Menggunakan font bersambung */
+  max-width: 1000px; /* Lebar maksimum sesuai lebar layar laptop */
+  margin: 0 auto; /* Posisikan teks di tengah */
+}
+.notification {
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  color: #3c763d;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.menu {
+  margin-right: 20px;
+  flex-basis: 50%;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+.order-details {
+  flex-basis: 50%;
+}
